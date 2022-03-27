@@ -48,3 +48,26 @@
   z-index: -1;
 
 }
+
+@media (max-width: 700px) {
+  .characterWrapper {
+    left: 10%;
+  }
+
+  .controlColumn {
+    display: flex;
+    gap: 16px;
+    overflow: scroll;
+    width: 100vw;
+    margin-inline: -32px;
+    margin-bottom: 80vh;
+  }
+
+  .header {
+    background: white;
+    padding: 24px;
+    border-radius: 8px;
+    width: unset;
+    margin-bottom: 80vh;
+  }
+}
